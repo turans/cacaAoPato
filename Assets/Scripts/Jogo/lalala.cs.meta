@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: 2e161594da7475e428ee700f95b36ecf
+guid: 34b3efe81eb3dd0438f1e4c447a81905
 MonoImporter:
   serializedVersion: 2
   defaultReferences:
-  - cursorImage: {instanceID: 0}
+  - pato: {fileID: 100000, guid: 3bf99142e719087439bba203a18da02e, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
