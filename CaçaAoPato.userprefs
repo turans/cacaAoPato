@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\ProjetoFinalTW\Assets\Scripts\animaBalas.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Jogo\GameInfo.cs">
     <Files>
-      <File FileName="..\..\ProjetoFinalTW\Assets\Scripts\animaBalas.cs" Line="4" Column="32" />
+      <File FileName="Assets\Scripts\Jogo\GameInfo.cs" Line="64" Column="70" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
