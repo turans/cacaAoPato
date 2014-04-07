@@ -15,6 +15,9 @@ public class GameInfo: MonoBehaviour {
 	int restSeconds;
 	int countDownSeconds;
 
+	public float missX=0;
+	public float missY=0;
+
 	public Font fonte;
 
 	void Start (){

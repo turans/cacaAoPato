@@ -3,13 +3,11 @@ using System.Collections;
 
 public class MovimentaPato : MonoBehaviour {
 
-	public CriaPato instanceCP;
 	public GameInfo instanceGI;
 	bool movP = true;
 	float movX=0,movY=0;
 	// Use this for initialization
 	void Start () {
-		instanceCP = (CriaPato)FindObjectOfType (typeof(CriaPato));
 		instanceGI = (GameInfo)FindObjectOfType (typeof(GameInfo));
 	}
 	
@@ -21,7 +19,11 @@ public class MovimentaPato : MonoBehaviour {
 			if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit) && hit.transform.tag == "Pato"){
 				StartCoroutine(killDuck(hit));
 			}
-			else instanceGI.miss = true;
+			else {
+				instanceGI.missX = Input.mousePosition.x;
+				instanceGI.missY = Input.mousePosition.y;
+				instanceGI.miss = true;
+			}
 		}
 		if (movP){
 			StartCoroutine(movPato());
@@ -57,7 +59,7 @@ public class MovimentaPato : MonoBehaviour {
 
 	IEnumerator killDuck(RaycastHit hit){
 		yield return new WaitForSeconds (0.33f);
-		if (gameObject != null){
+		if (hit.collider.gameObject){
 			Destroy (hit.collider.gameObject);
 		}
 		int patos = GameObject.FindGameObjectsWithTag ("Pato").Length;

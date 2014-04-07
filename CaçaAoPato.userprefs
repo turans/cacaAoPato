@@ -1,8 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Jogo\GameInfo.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Jogo\Score.cs">
     <Files>
-      <File FileName="Assets\Scripts\Jogo\GameInfo.cs" Line="64" Column="70" />
+      <File FileName="Assets\Scripts\Jogo\GameInfo.cs" Line="19" Column="14" />
+      <File FileName="Assets\Scripts\Jogo\MovimentaPato.cs" Line="24" Column="24" />
+      <File FileName="Assets\Scripts\Jogo\Score.cs" Line="21" Column="4" />
+      <File FileName="Assets\Scripts\Jogo\CriaPato.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
